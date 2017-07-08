@@ -1,0 +1,132 @@
+/*css for small screen sizes 
+*
+*
+*/
+@media only screen and (max-width: 686px)
+{
+	.myContent
+	{
+		font-size: 5vw !important;
+	}
+	.myHeader
+	{
+		font-family: 'Bad Script';
+		font-size: 6vw !important;
+		text-decoration: underline !important;
+	}
+	.tile
+	{
+		margin-top: 20px !important;
+	}
+	.img-circle
+	{
+		height: 13vw !important;
+		width: 13vw !important;
+	}
+	.space
+	{
+		margin-bottom: 30px !important;
+	}
+	.space2
+	{
+		margin-bottom: 50px !important;
+	}
+	.space3
+	{
+		margin-bottom: 60px !important;
+	}
+	.listcenter
+	{
+		font-size: 5.6vw !important;
+	}
+}
+
+/*css for header text*/
+.head_text
+{
+	color: white;
+}
+
+/*content formatting css for carousal slides*/
+.myContent
+{
+	font-family: 'Bad Script';
+	font-size: 5.6vw;
+	margin-top: 3%;
+	text-align: center;
+}
+
+/*header content formatting for carousal slides*/
+.myHeader
+{
+	font-family: 'Bad script';
+	font-size: 5vw;
+}
+
+/*link color for backgorund*/
+li a
+{
+	color: #f9f9f9;
+}
+a:hover
+{
+	color: #f9f9f9;
+}
+
+/*image view in top*/
+.imsize
+{
+	display: inline-block;
+	height: 36px;
+	width: 36px;
+}
+
+/* handle spacing */
+.space
+{
+	margin-bottom: 50px;
+}
+.space2
+{
+	margin-bottom: 50px;
+}
+.space3
+{
+	margin-bottom: 60px;
+}
+
+
+/* icon formatting */
+fa
+{
+	margin: 48px;
+}
+
+/* social media icon positioning */
+.bnav
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.bnav__list
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.bnav__item
+{
+	/*box-sizing: border-box;*/
+	display: inline-block;
+	line-height: 24px;
+	padding: 24px;
+	text-align: center;
+	width: 24%;
+}
+
+/*icon text*/
+.ic
+{
+	font-size: 14px;
+}
