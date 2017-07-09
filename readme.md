@@ -19,7 +19,7 @@ that can be seen [here](http://getbootstrap.com/examples/carousel/).
 
 ## Running the webpage
 * Pull files  from the [Portfolio repository](https://github.com/Animesh420/portfolio).
-* You can  directly run the html file in your preffered browser to see the result.
+* You can  directly run the **index.html** file in your preffered browser to see the result.
 * If you prefer to develop more based on this project, try installing browser-sync as it has browser reload capabilites nicely      baked in it. Details can be found [here]("https://www.browsersync.io/").
 * If you plan to use browser-synv use the command '**browser-sync start -s '.' -f '.'** '.
 
