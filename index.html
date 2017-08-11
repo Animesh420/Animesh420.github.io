@@ -12,12 +12,12 @@
 
   <title>Carousel Template for Bootstrap</title>
 
-  <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/3.3//dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="http://getbootstrap.com/docs/3.3/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
 
 
-  <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
-  <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet" />
+  <script src="https://getbootstrap.com/docs/3.3//assets/js/ie-emulation-modes-warning.js"></script>
+  <link href="css/carousel.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bad+Script" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
@@ -141,7 +141,7 @@
   <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row" >
+    <div class="row">
       <div class="col-lg-4">
         <img class="img-circle" src="images/node.jpg" alt="Node Express" width="140" height="140">
         <h2>Node and express JS</h2>
@@ -180,59 +180,78 @@
 
 
     <!-- START THE FEATURETTES -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <hr class="featurette-divider">
 
-    <hr class="featurette-divider">
+          <div class="row featurette tile" id="art">
+            <div class="col-md-7" id="tech">
 
-    <div class="row featurette tile" id="art">
-      <div class="col-md-7" id="tech">
-
-        <section class="lead" >
-          <h2 class="featurette-heading">Art event page </h2>
-          The source code for this webpage can be found <a href="https://github.com/Animesh420/ExpressWebApplication">here</a>.
-          This webpage is an arts event landing page and has been made using EJS template, express JS and node JS. EJS allows
-          one to modularise the html code in terms of partials and enhances reusability. Chat feature is also embedded in
-          the application using Socket.io as a middleware.
-        </section>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-responsive center-block " src="images/exp1.jpg" alt="Art landing page">
-        <img class="featurette-image img-responsive center-block " src="images/exp2.jpg" alt="Art landing page">
-      </div>
-    </div>
-    <p class="pull-left"><a href="#">Top</a></p>
-    <hr class="featurette-divider">
-
-    <div class="row featurette tile" id="movie">
-      <div class="col-md-7 col-md-push-5">
-
-        <section class="lead">
-          <h2 class="featurette-heading">Movie trailer website </h2>
-          The source code for this webpage can be found <a href="https://github.com/Animesh420/pythonMovieTrailer">here</a>.
-          This webpage is a movie trailer website built using python. The objective of this project is to dynamically generate
-          content via python. The data needs to be maintained as a movie object, with parameters like movie name, movie title,
-          movie image poster and movie trailer url etc, and the page renders itself dynamically.
-        </section>
-      </div>
-      <div class="col-md-5 col-md-pull-7">
-        <img class="featurette-image img-responsive center-block " src="images/mov1.jpg" alt="Movie trailer">
-        <img class="featurette-image img-responsive center-block " src="images/mov2.jpg" alt="Movie trailer">
+              <section class="lead">
+                <h2 class="featurette-heading">Art event page </h2>
+                The source code for this webpage can be found <a href="https://github.com/Animesh420/ExpressWebApplication">here</a>.
+                This webpage is an arts event landing page and has been made using EJS template, express JS and node JS.
+                EJS allows one to modularise the html code in terms of partials and enhances reusability. Chat feature is
+                also embedded in the application using Socket.io as a middleware.
+              </section>
+            </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-responsive center-block " src="images/exp1.jpg" alt="Art landing page">
+              <img class="featurette-image img-responsive center-block " src="images/exp2.jpg" alt="Art landing page">
+            </div>
+          </div>
+          <p class="pull-left"><a href="#">Top</a></p>
+        </div>
       </div>
     </div>
-    <p class="pull-right"><a href="#">Top</a></p>
-    <hr class="featurette-divider">
 
-    <div class="row featurette tile" id="shop">
-      <div class="col-md-7">
-        <section class="lead">
-          <h2 class="featurette-heading">Shopping Cart website </h2>
-          The source code for this webpage can be found <a href="https://github.com/Animesh420/DeborahKurataAngular2Cart">here</a>.
-          This is a shopping cart website built using angular 2 and it requires development in typescript , a superset of
-          javascript. It supports basic searches and DOM manipulation via angular directives.
-        </section>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <hr class="featurette-divider">
+
+          <div class="row featurette tile" id="movie">
+            <div class="col-md-7 col-md-push-5">
+
+              <section class="lead">
+                <h2 class="featurette-heading">Movie trailer website </h2>
+                The source code for this webpage can be found <a href="https://github.com/Animesh420/pythonMovieTrailer">here</a>.
+                This webpage is a movie trailer website built using python. The objective of this project is to dynamically
+                generate content via python. The data needs to be maintained as a movie object, with parameters like movie
+                name, movie title, movie image poster and movie trailer url etc, and the page renders itself dynamically.
+              </section>
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+              <img class="featurette-image img-responsive center-block " src="images/mov1.jpg" alt="Movie trailer">
+              <img class="featurette-image img-responsive center-block " src="images/mov2.jpg" alt="Movie trailer">
+            </div>
+          </div>
+          <p class="pull-right"><a href="#">Top</a></p>
+        </div>
       </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-responsive center-block " src="images/shop1.jpg" alt="shop">
-        <img class="featurette-image img-responsive center-block " src="images/shop2.jpg" alt="shop">
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <hr class="featurette-divider">
+
+          <div class="row featurette tile" id="shop">
+            <div class="col-md-7">
+              <section class="lead">
+                <h2 class="featurette-heading">Shopping Cart website </h2>
+                The source code for this webpage can be found <a href="https://github.com/Animesh420/DeborahKurataAngular2Cart">here</a>.
+                This is a shopping cart website built using angular 2 and it requires development in typescript , a superset
+                of javascript. It supports basic searches and DOM manipulation via angular directives.
+              </section>
+            </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-responsive center-block " src="images/shop1.jpg" alt="shop">
+              <img class="featurette-image img-responsive center-block " src="images/shop2.jpg" alt="shop">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -240,26 +259,27 @@
 
 
     <!-- FOOTER -->
-    <footer>
-      <p class="pull-right"><a href="#">Top</a></p>
-      <div id="contact">
-        <h1> Contact Information </h1>
-        <nav class="bnav">
-          <ul class="bnav__list">
-            <li class="bnav__item"> <a class="btn btn-sm btn-default"><i class="fa fa-github-square "> <span class="ic">Github</span></i></a> </li>
-            <li class="bnav__item"><a class="btn btn-sm btn-primary"><i class="fa fa-linkedin-square "> <span class="ic">Linkedin</span></i></a></li>
-            <li class="bnav__item"><a class="btn btn-sm btn-danger"><i class="fa fa-envelope-square "> <span class="ic">Gmail  </span> </i></a></li>
-          </ul>
-        </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <footer>
+            <p class="pull-right"><a href="#">Top</a></p>
+            <div id="contact">
+              <h1> Contact Information </h1>
+              <nav class="bnav">
+                <ul class="bnav__list">
+                  <li class="bnav__item"> <a href = "https://github.com/Animesh420/"class="btn btn-sm btn-default"><i class="fa fa-github-square "> <span class="ic">Github</span></i></a>                    </li>
+                  <li class="bnav__item"><a href = "https://www.linkedin.com/in/animesh323/"class="btn btn-sm btn-primary"><i class="fa fa-linkedin-square "> <span class="ic">Linkedin</span></i></a></li>
+                  <li class="bnav__item"><a href = "mailto:ani420mkjee@gmail.com"class="btn btn-sm btn-danger"><i class="fa fa-envelope-square "> <span class="ic">Gmail  </span> </i></a></li>
+                </ul>
+              </nav>
+            </div>
+          </footer>
+        </div>
       </div>
-
-
-
-
-
-    </footer>
-
+    </div>
   </div>
+
   <!-- /.container -->
 
 
@@ -270,12 +290,12 @@
   <script>
     window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
   </script>
-  <script src="http://getbootstrap.com/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  <script src="https://getbootstrap.com//docs/3.3//dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
   <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-  <script src="http://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
+  <script src="https://getbootstrap.com/docs/3.3/assets/js/vendor/holder.min.js"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="https://getbootstrap.com//docs/3.3/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 
 </html>
